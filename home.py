@@ -7,8 +7,10 @@ st.write("Seleziona uno strumento per aprire l'app dedicata.")
 
 st.markdown("---")
 
-# LQR TOOL
-st.subheader("LQR Tool")
+# ============================================================
+# 1) LQR TOOL
+# ============================================================
+st.subheader("📦 LQR Tool")
 st.write("Generatore LQR con barcode vettoriali.")
 st.link_button(
     "Apri LQR Tool",
@@ -17,8 +19,10 @@ st.link_button(
 
 st.markdown("---")
 
-# BINDELLI BARCODE GENERATOR
-st.subheader("Bindelli Barcode Generator")
+# ============================================================
+# 2) BINDELLI BARCODE GENERATOR
+# ============================================================
+st.subheader("🏷️ Bindelli Barcode Generator")
 st.write("Generatore di etichette con barcode per Bindelli.")
 st.link_button(
     "Apri Bindelli Barcode Generator",
@@ -27,12 +31,26 @@ st.link_button(
 
 st.markdown("---")
 
-# UNISCI PDF
-st.subheader("Unisci PDF")
+# ============================================================
+# 3) UNISCI PDF
+# ============================================================
+st.subheader("🧾 Unisci PDF")
 st.write("Strumento per unire più PDF in un unico file.")
 st.link_button(
     "Apri Unisci PDF",
     "https://unisci-pdf-jietc4xahcuou8e3mqvdyf.streamlit.app/"
+)
+
+st.markdown("---")
+
+# ============================================================
+# 4) STAMPA TRACKING (TXT → PDF)
+# ============================================================
+st.subheader("📄 Stampa Tracking UPS (TXT → PDF)")
+st.write("Carica un file .txt e genera un PDF con etichette barcode UPS.")
+st.link_button(
+    "Apri Stampa Tracking",
+    "https://stampa-trk-gqbnhcjdzyg7jjknbflbfo.streamlit.app/"
 )
 
 st.markdown("---")
