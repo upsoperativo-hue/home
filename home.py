@@ -106,8 +106,8 @@ with col2:
                 </span>
             </div>
             <div style="font-size:13px; color:#4a3b32; margin-top:4px;">
-                Estrae automaticamente i tracking con <b>WeekendEligibleVolume = 1</b> da più file ULD Detail
-                e genera il <b>TOOL ELEGGIBILI</b> in formato <b>.xlsm</b> mantenendo le macro originali.
+                You know what you can do <b>Magic = 1</b> that's fine
+                yes! <b>MAGIC</b> in formato <b>.xlsm</b> you can.
             </div>
         </div>
         """,
@@ -115,7 +115,7 @@ with col2:
     )
 
 st.link_button(
-    "Apri TOOL ELEGGIBILI",
+    "Apri MAGIC",
     "https://tsphrgi5vh7thxezejgwm4.streamlit.app"
 )
 
