@@ -92,7 +92,7 @@ with col2:
             border-radius:8px;
         ">
             <div style="font-size:20px; font-weight:600; color:#351c15;">
-                TOOL ELEGGIBILI (Weekend Eligible)
+                MAGIC (WONDER)
                 <span style="
                     background-color:#d89b2b;
                     color:white;
