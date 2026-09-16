@@ -55,10 +55,9 @@ st.link_button(
 
 st.markdown("---")
 
-st.info("Puoi aggiungere qui tutte le app future.")
-
-st.markdown("---")
-
+# ============================================================
+# 5) MAGIC (WONDER)
+# ============================================================
 col1, col2 = st.columns([1, 3])
 
 with col1:
@@ -76,7 +75,7 @@ with col1:
             font-size:32px;
             font-weight:bold;
         ">
-            📅
+            ✨
         </div>
         """,
         unsafe_allow_html=True
@@ -92,7 +91,60 @@ with col2:
             border-radius:8px;
         ">
             <div style="font-size:20px; font-weight:600; color:#351c15;">
-                MAGIC (WONDER)
+                MAGIC (Wonder Tool)
+            </div>
+            <div style="font-size:13px; color:#4a3b32; margin-top:4px;">
+                Il tuo tool multifunzione con estrazioni, filtri, TXT, XLSM e automazioni operative.
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+st.link_button(
+    "Apri MAGIC",
+    "https://tsphrgi5vh7thxezejgwm4.streamlit.app"
+)
+
+st.markdown("---")
+
+# ============================================================
+# 6) BARCODE ZEBRA (Sticker 50×15 mm)
+# ============================================================
+col1, col2 = st.columns([1, 3])
+
+with col1:
+    st.markdown(
+        """
+        <div style="
+            background-color:#351c15;
+            color:white;
+            width:70px;
+            height:70px;
+            border-radius:12px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:32px;
+            font-weight:bold;
+        ">
+            🏷️
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+with col2:
+    st.markdown(
+        """
+        <div style="
+            background-color:#f5f1e8;
+            border-left:6px solid #351c15;
+            padding:12px 16px;
+            border-radius:8px;
+        ">
+            <div style="font-size:20px; font-weight:600; color:#351c15;">
+                Barcode Zebra (Sticker 50×15 mm)
                 <span style="
                     background-color:#d89b2b;
                     color:white;
@@ -106,8 +158,7 @@ with col2:
                 </span>
             </div>
             <div style="font-size:13px; color:#4a3b32; margin-top:4px;">
-                You know what you can do <b>Magic = 1</b> that's fine
-                yes! <b>MAGIC</b> in formato <b>.xlsm</b> you can.
+                Generatore di barcode Code128 ottimizzati per stampanti Zebra e sticker 50×15 mm.
             </div>
         </div>
         """,
@@ -115,7 +166,10 @@ with col2:
     )
 
 st.link_button(
-    "Apri MAGIC",
-    "https://tsphrgi5vh7thxezejgwm4.streamlit.app"
+    "Apri Barcode Zebra",
+    "https://YOUR-BARCODE-ZEBRA-APP.streamlit.app"
 )
 
+st.markdown("---")
+
+st.info("Puoi aggiungere qui tutte le app future.")
