@@ -26,7 +26,7 @@ st.subheader("🏷️ Bindelli Barcode Generator")
 st.write("Generatore di etichette con barcode per Bindelli.")
 st.link_button(
     "Apri Bindelli Barcode Generator",
-    "https://bindelli-barcode-generator-sdfozmjhtff7vrv7sc6xnd.streamlit.app/"
+    "https://bindelli-barcode-generator-3uysma2sq6p6crvndygxzk.streamlit.app"
 )
 
 st.markdown("---")
